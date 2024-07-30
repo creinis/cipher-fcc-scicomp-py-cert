@@ -9,6 +9,8 @@ def caesar(message, offset):
         if char == ' ':
             encrypted_text += char
         else:
+            index = alphabet.find(char)
+            
     
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
