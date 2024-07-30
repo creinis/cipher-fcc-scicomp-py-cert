@@ -1,2 +1,4 @@
+text = ''
+custom_key = ''
 
 
