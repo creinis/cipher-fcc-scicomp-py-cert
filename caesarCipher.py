@@ -6,8 +6,8 @@ def caesar(message, offset):
     encrypted_text = ''
     
     for char in message.lower():
-        if:
-            
+        if char == ' ':
+            encrypted_text += char
         else:
     
     print('plain text:', message)
