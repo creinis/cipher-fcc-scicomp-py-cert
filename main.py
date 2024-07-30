@@ -43,3 +43,9 @@ text = 'Hello World'
 print(type(text))
 shift = 3
 
+# Step 9
+# And now print your new variable.
+
+print(shift)
+print (type(shift))
+
