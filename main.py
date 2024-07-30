@@ -13,3 +13,8 @@ text = 'Hello World'
 # Print your text variable to the screen by including the variable name between the opening and closing parentheses of the print() function.
 
 print(text)
+
+# Step 4
+# Now, instead of printing text, print just the character at index 6
+
+print(text[6])
