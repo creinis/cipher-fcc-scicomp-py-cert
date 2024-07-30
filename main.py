@@ -686,4 +686,15 @@ def vigenere(message, key, direction):
 if char.isalpha():
     final_message += char
 
+# Step 76
+
+# The not operator is used to negate an expression. 
+# When placed before a truthy value — a value that evaluates to True — it returns False and vice versa.
+
+# Add the not operator to the if condition to check if the character is not alphabetic.
+
+# Append any non-letter character to the message
+if not char.isalpha():
+    final_message += char
+
 
