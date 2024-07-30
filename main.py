@@ -726,4 +726,17 @@ print(encryption)
 decryption = decrypt(encryption, custom_key)
 print(decryption)
 
+# Step 83
+
+# Two or more strings can be concatenated by using the + operator. 
+# For example: 'Hello' + ' there!' results in 'Hello there!.
+
+# Modify print(encryption) to print Encrypted 
+# text: mrttaqrhknsw ih puggrur. Use the + operator to concatenate text to your string and pay attention to the spacing.
+
+encryption = encrypt(text, custom_key)
+print('Encrypted text: '+ text)
+print('Key: '+ custom_key)
+decryption = decrypt(encryption, custom_key)
+print('Decrypted text: ' + decryption)
 
