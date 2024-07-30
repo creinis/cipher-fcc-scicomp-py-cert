@@ -74,3 +74,13 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 alphabet.find(text[0])
 
+# Step 13
+
+# Now assign the value returned by alphabet.find(text[0]) to a variable named index. Then, print its value.
+
+text = 'Hello World'
+shift = 3
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+index = alphabet.find(text[0])
+print(index)
+
