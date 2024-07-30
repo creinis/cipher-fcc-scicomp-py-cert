@@ -625,4 +625,11 @@ def vigenere(message, key, direction):
 #encryption = vigenere(text, custom_key)
 #print(encryption)
 
+# Step 66
+
+#All you need to do is multiply the offset by the direction in the new_index assignment. 
+# The multiplication operator in Python is *.
+
+new_index = (index + offset*direction) % len(alphabet)
+
 
