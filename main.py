@@ -63,3 +63,14 @@ print (type(shift))
 text = 'Hello World'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+# Step 12 - Caesar cipher
+
+# The first kind of cipher you are going to build is called a Caesar cipher. Specifically, you will take each letter in your message, find its position in the alphabet, take the letter located after 3 positions, and replace the original letter with the new letter.
+# Start by finding the position of the first letter in the string. One way is to use the built-in find() function:
+# a_string.find(char)
+# Above, char is the character you want to locate, and a_string is the string you want to parse.
+# At the end of your code, call find() on your alphabet string and pass text[0] to the function.
+
+alphabet.find(text[0])
+
