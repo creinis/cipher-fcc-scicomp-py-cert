@@ -11,7 +11,9 @@ def vigenere(message, key, direction=1):
         if not char.isalpha():
             final_message += char
         else:
+            # Find the right key character to encode/decode
             
+            # Define the offset and the encrypted/decrypted letter
     
     return final_message
 
