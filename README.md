@@ -5,15 +5,9 @@
 <img src="https://img.icons8.com/color/75/000000/python.png" width="75" height="75" alt="Python" style="margin: 10px 15px 0 15px;" />
 </p>
 
-- **Python:** Used for implementing the Caesar and Vigenere cipher algorithms to demonstrate encryption and decryption techniques.
-
 ### Try it!
 
 To run the Caesar and Vigenere Ciphers applications, follow the instructions in the Setup section below.
-
-### Functionality
-
-This project demonstrates two classic encryption techniques: the Caesar cipher and the Vigenere cipher. The Caesar cipher shifts each letter of the plaintext by a fixed number of positions down the alphabet, while the Vigenere cipher uses a keyword to shift letters by varying amounts based on the keyword's characters.
 
 ## Project Structure
 
@@ -35,12 +29,12 @@ This project demonstrates two classic encryption techniques: the Caesar cipher a
 
 2. Run the Caesar cipher script:
    ```bash
-   python caesar_cipher.py
+   python3 caesar_cipher.py
    ```
 
 3. Run the Vigenere cipher script:
    ```bash
-   python vigenere_cipher.py
+   python3 vigenere_cipher.py
    ```
 
 ## Caesar Cipher
