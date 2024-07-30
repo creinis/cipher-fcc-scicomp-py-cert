@@ -5,6 +5,7 @@ def caesar(message, offset):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
     
-    print(message)
+    print('plain text:', message)
+    print('encrypted text:', encrypted_text)
     
 caesar(text, shift)
