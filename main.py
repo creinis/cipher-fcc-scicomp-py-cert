@@ -167,3 +167,17 @@ for char in text:
     index = alphabet.find(char)
     print(char)
 
+# Step 24
+
+# An argument is an object or an expression passed to a function — between the parentheses — when it is called. 
+# The print function can take multiple arguments, separated by a comma.
+# Add a second argument to print(char) so that it prints the character and its index inside the alphabet.
+
+text = 'Hello World'
+shift = 3
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+for char in text:
+    index = alphabet.find(char)
+    print(char, index)
+
