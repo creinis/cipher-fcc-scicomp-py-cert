@@ -7,6 +7,7 @@ def vigenere(message, key, direction=1):
     final_message = ''
     
     for char in message.lower():
+        # Append any non-letter character to the message
         if not char.isalpha():
             final_message += char
         else:
