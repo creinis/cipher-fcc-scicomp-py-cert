@@ -19,6 +19,8 @@ def vigenere(message, key, direction=1):
             offset = alphabet.index(key_char)
             index = alphabet.find(char)
             
+            new_index = (index + offset*direction) % len(alphabet)
+            
     
     return final_message
 
