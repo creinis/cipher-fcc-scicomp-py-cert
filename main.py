@@ -711,3 +711,19 @@ def foo():
 def encrypt(message, key):
     pass
 
+# Step 81
+
+# Next, modify your encryption and decryption variables by calling encrypt and decrypt, respectively.
+
+def encrypt(message, key):
+    return vigenere(message, key)
+    
+def decrypt(message, key):
+    return vigenere(message, key, -1)
+    
+encryption = encrypt(text, custom_key)
+print(encryption)
+decryption = decrypt(encryption, custom_key)
+print(decryption)
+
+
