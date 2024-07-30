@@ -632,4 +632,14 @@ def vigenere(message, key, direction):
 
 new_index = (index + offset*direction) % len(alphabet)
 
+# Step 68
+
+# Check if the function can decrypt the string back to the plain text.
+# Declare another variable called decryption and assign it vigenere(encryption, custom_key, -1).
+
+encryption = vigenere(text, custom_key, 1)
+print(encryption)
+decryption = vigenere(encryption, custom_key, -1)
+print(decryption)
+
 
