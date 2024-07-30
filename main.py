@@ -672,3 +672,18 @@ def vigenere(message, key, direction):
     
     return final_message
 
+# Step 75
+
+# The .isalpha() method returns True if all the character of the string on which it is called are letters. 
+# For example, the code below returns True:
+
+    # 'freeCodeCamp'.isalpha()
+    # True
+
+# Modify the if condition by calling .isalpha() on char.
+
+# Append space to the message
+if char.isalpha():
+    final_message += char
+
+
