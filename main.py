@@ -147,4 +147,11 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for i in text:
     print(i)
     
-    
+# Step 22
+
+# The iteration variable can have any valid name, but it's convenient to give it a meaningful name.
+# Rename your i variable to char.
+
+for char in text:
+    print(char)
+
