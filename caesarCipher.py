@@ -10,6 +10,7 @@ def caesar(message, offset):
             encrypted_text += char
         else:
             index = alphabet.find(char)
+            new_index = (index + offset) % len(alphabet)
             
     
     print('plain text:', message)
