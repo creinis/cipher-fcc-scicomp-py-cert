@@ -25,3 +25,9 @@ print(text[6])
 
 print(text[-1])
 
+# Step 6
+# Modify your existing print() call to print len(text).
+
+print(len(text))
+
+
