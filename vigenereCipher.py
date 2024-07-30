@@ -8,4 +8,7 @@ def vigenere(message, key):
     
     return final_message
 
+def encrypt(message, key):
+    return vigenere(message, key)
+
 
