@@ -12,6 +12,8 @@ def vigenere(message, key, direction=1):
             final_message += char
         else:
             # Find the right key character to encode/decode
+            key_char = key[key_index % len(key)]
+            key_index += 1
             
             # Define the offset and the encrypted/decrypted letter
     
