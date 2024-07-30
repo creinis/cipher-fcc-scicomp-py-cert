@@ -1,0 +1,2 @@
+text = ''
+shift = 0
