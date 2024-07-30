@@ -8,3 +8,8 @@ number = 5
 # Then, declare another variable called text and assign the string Hello World to this variable.
 
 text = 'Hello World'
+
+# Step 3
+# Print your text variable to the screen by including the variable name between the opening and closing parentheses of the print() function.
+
+print(text)
