@@ -540,4 +540,19 @@ def vigenere(message, key):
         key_char = key[key_index % len(key)]
         key_index += 1
 
+# Step 60
+
+# The .index() method is identical to the .find() method but it throws a ValueError exception if it is unable to find the substring.
+
+# Declare a variable called offset and give it the value of the index that key_char has in alphabet. 
+# Use .index() to find it.
+
+# Append space to the message
+    if char == ' ':
+        encrypted_text += char
+    else:        
+        # Find the right key character to encode
+        key_char = key[key_index % len(key)]
+        key_index += 1
+        offset = alphabet.index(key_char)
 
