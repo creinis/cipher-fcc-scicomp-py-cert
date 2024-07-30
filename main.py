@@ -527,4 +527,17 @@ def vigenere(message, key):
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
 
+# Step 58
+
+# You will need to increase the key_index count for the next iteration. 
+# To do this, after the line you just added and in the same code block, 
+# use the addition assignment operator to increment key_index by one.
+
+    # Append space to the message
+    if char == ' ':
+        encrypted_text += char
+    else:
+        key_char = key[key_index % len(key)]
+        key_index += 1
+
 
