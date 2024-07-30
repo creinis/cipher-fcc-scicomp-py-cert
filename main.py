@@ -30,4 +30,8 @@ print(text[-1])
 
 print(len(text))
 
+# Step 7
+# Another useful built-in function is type(), which returns the data type of a variable. 
+# Modify your print call to print the data type of text.
 
+print(type(text))
