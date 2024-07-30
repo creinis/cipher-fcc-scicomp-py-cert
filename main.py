@@ -35,3 +35,11 @@ print(len(text))
 # Modify your print call to print the data type of text.
 
 print(type(text))
+
+# Step 8
+# Now go to a new line and create another variable called shift and assign the value 3 to this variable.
+
+text = 'Hello World'
+print(type(text))
+shift = 3
+
