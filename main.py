@@ -192,4 +192,13 @@ for char in text.lower():
     index = alphabet.find(char)
     print(char, index)
 
+# Step 26
+
+# At the end of your loop body, declare a variable called new_index and assign the value of index + shift to this variable.
+
+for char in text.lower():
+    index = alphabet.find(char)
+    print(char, index)
+    new_index = index + shift
+
 
