@@ -6,6 +6,11 @@ def vigenere(message, key, direction=1):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     final_message = ''
     
+    for char in message.lower():
+        if:
+        else:
+            
+    
     return final_message
 
 def encrypt(message, key):
