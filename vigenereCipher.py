@@ -16,6 +16,9 @@ def vigenere(message, key, direction=1):
             key_index += 1
             
             # Define the offset and the encrypted/decrypted letter
+            offset = alphabet.index(key_char)
+            index = alphabet.find(char)
+            
     
     return final_message
 
